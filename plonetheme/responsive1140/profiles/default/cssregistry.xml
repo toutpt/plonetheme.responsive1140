@@ -2,8 +2,14 @@
 <object name="portal_css">
 
  <stylesheet
-    id="++theme++plonetheme.responsive1140/css/grid.css"
+    id="++theme++plonetheme.responsive1140/css/ie.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"
+    conditionalcomment="lt IE 9"
+    />
+ <stylesheet
+    id="++theme++plonetheme.responsive1140/css/1140.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
  <stylesheet
     id="++theme++plonetheme.responsive1140/css/theme.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>

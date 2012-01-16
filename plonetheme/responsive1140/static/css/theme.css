@@ -116,29 +116,40 @@ q {
     font-size: 80%;
     background: #ddd;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
-    margin: 0 10px 1em 10px;
+    margin-bottom: 1em;
 }
-#portal-globalnav li {
-}
-#portal-globalnav li a {
-    display: inline-block;
-    padding: 0.5em 1em 2em 1em;
+#portal-globalnav div {
     background: #ddd;
+}
+#portal-globalnav div.selected,
+#portal-globalnav div:hover {
+    background: #205c90;
+}
+#portal-globalnav div.selected:hover {
+    background: #ddd;
+}
+#portal-globalnav .selected a,
+#portal-globalnav div:hover a {
+    color: White;
+}
+#portal-globalnav .selected:hover a {
+    color: #205c90;
+}
+@media handheld, only screen and (min-width: 767px) {
+  #portal-globalnav div{
+      border-right: 0.1em solid white;
+      width: 24.9%;
+      margin-right:0;
+  }
+}
+#portal-globalnav div a {
+    display: block;
+    padding: 0.5em 1em 2em 1em;
     min-width: 6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
     /*border-bottom: 0.1em solid White;*/
-    border-right: 0.1em solid white;
-}
-
-#portal-globalnav .selected a,
-#portal-globalnav a:hover {
-    background: #205c90;
-    color: White;
-}
-#portal-globalnav .selected a:hover {
-    background: #ddd;
-    color: #205c90;
+    
 }
 
 #portal-personaltools {

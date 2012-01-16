@@ -7,4 +7,7 @@
  <javascript
     id="++theme++plonetheme.responsive1140/js/modernizr.js"/>
 
+ <javascript
+    id="++theme++plonetheme.responsive1140/js/css3-mediaqueries.js"/>
+
 </object>

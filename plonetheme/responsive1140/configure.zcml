@@ -24,6 +24,6 @@
 
 
   <plone:static directory="static" type="theme" 
-    name="1140 responsive grid example theme" />
+    name="plonetheme.responsive1140" />
 
 </configure>

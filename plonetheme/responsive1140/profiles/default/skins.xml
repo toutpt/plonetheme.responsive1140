@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <object name="portal_skins" allow_any="False" cookie_persistence="False"
-   default_skin="1140 responsive grid example theme">
+   default_skin="plonetheme.responsive1140">
 
  <object name="plonetheme_responsive1140_custom"
     meta_type="Filesystem Directory View"
     directory="plonetheme.responsive1140:skins/plonetheme_responsive1140_custom"/>
 
- <skin-path name="1140 responsive grid example theme" based-on="Sunburst Theme">
+ <skin-path name="plonetheme.responsive1140" based-on="Sunburst Theme">
   <layer name="plonetheme_responsive1140_custom"
      insert-after="custom"/>
  </skin-path>
