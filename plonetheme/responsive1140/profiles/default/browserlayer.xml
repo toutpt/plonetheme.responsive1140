@@ -1,0 +1,4 @@
+<layers>
+    <layer name="1140 responsive grid example theme"
+           interface="plonetheme.responsive1140.browser.interfaces.IThemeSpecific" />
+</layers>
