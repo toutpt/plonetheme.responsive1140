@@ -1,7 +1,8 @@
 Introduction
 ============
 
-This theme use 1140_ css grid system.
+This theme use 1140_ css grid system. This theme use plone.app.theming_ but it
+is not 100% diazo compliant. It override globalnav viewlet.
 
 About 1140 CSS grid
 ===================
