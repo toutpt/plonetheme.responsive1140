@@ -37,3 +37,4 @@ Authors
 .. |makinacom| image:: http://depot.makina-corpus.org/public/logo.gif
 .. _makinacom:  http://www.makina-corpus.com
 .. _1140: http://cssgrid.net/
+.. _plone.app.theming: http://pypi.python.org/pypi/plone.app.theming
