@@ -5,7 +5,7 @@ version = '1.0'
 
 setup(name='plonetheme.responsive1140',
       version=version,
-      description="An installable diazo theme for Plone 4",
+      description="A responsive theme for Plone",
       long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
@@ -17,10 +17,10 @@ setup(name='plonetheme.responsive1140',
         "Framework :: Plone :: 4.1",
         "Framework :: Plone :: 4.2",
         ],
-      keywords='',
-      author='',
-      author_email='',
-      url='http://svn.plone.org/svn/collective/',
+      keywords='plone',
+      author='JeanMichel FRANCOIS aka toutpt',
+      author_email='toutpt@gmail.com',
+      url='https://github.com/collective/plonetheme.responsive1140',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['plonetheme'],
@@ -33,7 +33,6 @@ setup(name='plonetheme.responsive1140',
       ],
       entry_points="""
       # -*- Entry points: -*-
-
       [z3c.autoinclude.plugin]
       target = plone
       """,

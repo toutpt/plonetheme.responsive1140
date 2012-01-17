@@ -19,6 +19,14 @@ information still makes sense.
 Scrap 1024! Design once at 1140 for 1280, and with very little extra work, it
 will adapt itself to work on just about any monitor, even mobile.
 
+By Andy Taylor @andytlr
+
+You can get a photoshop template at
+http://download.cssgrid.net/1140_CccGrid_Template.psd
+
+Licenses: 1140 grid is licensed under Creative Commons Attribution 3.0:
+http://creativecommons.org/licenses/by/3.0/au
+
 Credits
 =======
 
