@@ -8,7 +8,7 @@
         ><tal:tabs tal:repeat="tab portal_tabs"
         ><div tal:define="tid tab/id"
              tal:attributes="id string:portaltab-${tid};
-                            class python:view.addClass(tab);"
+                            class python:selected_tab==tid and 'threecol selected' or 'threecol plain'"
             ><a href=""
                tal:content="tab/name"
                tal:attributes="href tab/url;
