@@ -137,14 +137,12 @@ q {
     color: #205c90;
 }
 @media handheld, only screen and (min-width: 767px) {
-    #portal-globalnav div{
-        margin-right:0;
-    }
-    #portal-globalnav .onecol{width: 8.65%;}
-    #portal-globalnav .twocol{width: 16.58%;}
-    #portal-globalnav .threecol{width: 24.91%;}
-    #portal-globalnav .fourcol{width: 33.24%;}
-    #portal-globalnav .sixcol{width: 49.9%;}
+#portal-globalnav div{margin-right:0;}
+#portal-globalnav .onecol{width:8.65%;}
+#portal-globalnav .twocol{width:16.58%;}
+#portal-globalnav .threecol{width:24.90%;}
+#portal-globalnav .fourcol{width:33.24%;}
+#portal-globalnav .sixcol{width:49.9%;}
 }
 #portal-globalnav div a {
     display: block;
