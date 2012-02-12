@@ -14,4 +14,30 @@
     id="++theme++plonetheme.responsive1140/css/theme.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>
 
+  <stylesheet title=""
+      applyPrefix="False"
+      authenticated="False"
+      cacheable="True"
+      compression="safe"
+      conditionalcomment=""
+      cookable="False"
+      enabled="1"
+      expression=""
+      id="public.css"
+      media="screen"
+      rel="stylesheet"
+      rendering="link"/>
+   <stylesheet title=""
+      applyPrefix="False"
+      authenticated="False"
+      cacheable="True"
+      compression="safe"
+      conditionalcomment=""
+      cookable="False"
+      enabled="1"
+      expression=""
+      id="columns.css"
+      media="screen"
+      rel="stylesheet"
+      rendering="link"/> 
 </object>

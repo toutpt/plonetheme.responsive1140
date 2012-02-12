@@ -1,6 +1,15 @@
 Changelog
 =========
 
+1.1 (unreleased)
+------------------
+- Let plone viewable even without the diazo theme unapplied:
+  public and columns css are not overidden but then, not cookable anymore.
+  Thus we can remove them from being fetched inside the diazo theme. [kiorky]
+- Do not override the globalnav viewlet to be a full diazo template [kiorky]
+- Add 'last' class on globalnav last element to be 1140 compliant {kiorky]
+
+
 1.0 (2012-01-17)
 ----------------
 
