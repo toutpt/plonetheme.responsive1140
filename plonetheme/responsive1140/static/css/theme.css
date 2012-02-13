@@ -143,7 +143,6 @@ q {
     color: #205c90;
 }
 
-/*
 @media handheld, only screen and (min-width: 767px) {
 #portal-globalnav {margin-right:0;}
 #portal-globalnav .onecol{width:8.65%;}
@@ -152,7 +151,6 @@ q {
 #portal-globalnav .fourcol{width:33.24%;}
 #portal-globalnav .sixcol{width:49.9%;}
 }
-*/
 
 #portal-personaltools {
     float: right;
