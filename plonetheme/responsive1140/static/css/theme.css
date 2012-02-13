@@ -110,7 +110,6 @@ q {
     margin-top: 0;
 }
 
-
 #portal-globalnav {
     clear: both;
     font-size: 80%;
@@ -118,40 +117,39 @@ q {
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
     margin-bottom: 1em;
 }
-#portal-globalnav div {
+#portal-globalnav li a {
+    display: inline-block;
+    padding: 0.5em 1em 2em 1em;
     background: #ddd;
     border-right: 0.1em solid white;
+    min-width: 6em;
+    white-space: normal;
+    /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
+    /*border-bottom: 0.1em solid White;*/
 }
-#portal-globalnav div.selected,
-#portal-globalnav div:hover {
+
+#portal-globalnav .selected a,
+#portal-globalnav a:hover {
     background: #205c90;
+    color: White;
 }
-#portal-globalnav div.selected:hover {
+#portal-globalnav .selected a:hover {
     background: #ddd;
 }
-#portal-globalnav .selected a,
-#portal-globalnav div:hover a {
+#portal-globalnav ul:hover a {
     color: White;
 }
 #portal-globalnav .selected:hover a {
     color: #205c90;
 }
+
 @media handheld, only screen and (min-width: 767px) {
-#portal-globalnav div{margin-right:0;}
+#portal-globalnav {margin-right:0;}
 #portal-globalnav .onecol{width:8.65%;}
 #portal-globalnav .twocol{width:16.58%;}
 #portal-globalnav .threecol{width:24.90%;}
 #portal-globalnav .fourcol{width:33.24%;}
 #portal-globalnav .sixcol{width:49.9%;}
-}
-#portal-globalnav div a {
-    display: block;
-    padding: 0.5em 1em 2em 1em;
-    min-width: 6em;
-    white-space: normal;
-    /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
-    /*border-bottom: 0.1em solid White;*/
-    
 }
 
 #portal-personaltools {
@@ -1403,7 +1401,7 @@ input.searchPage {
     margin-top: 1em;
 }
 form.searchPage h1.documentFirstHeading {
-    font-weight:normal; 
+    font-weight:normal;
     letter-spacing:0;
 	float: left;
 	margin-right: 0.8em;
@@ -1414,7 +1412,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
 #search-results-bar > * {
     float: left;
 }
-#searchResultsSort{ 
+#searchResultsSort{
 	float:right;
 }
 #search-results-bar {
@@ -1423,7 +1421,7 @@ form.searchPage h1.documentFirstHeading .highlightedSearchTerm {
     float: left;
     width: 100%;
     border-top: 1px solid #DDD;
-    border-bottom: 1px solid #DDD;    
+    border-bottom: 1px solid #DDD;
     padding: 1em 0;
 }
 #search-results-bar dl.actionMenu {

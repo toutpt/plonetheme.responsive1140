@@ -18,6 +18,6 @@
       template="sections.pt"
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
-      />
+    />
 
 </configure>

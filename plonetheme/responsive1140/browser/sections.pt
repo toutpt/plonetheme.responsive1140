@@ -3,10 +3,10 @@
      i18n:domain="plone">
     <h5 class="hiddenStructure" i18n:translate="heading_sections">Sections</h5>
 
-    <div class="row" id="portal-globalnav"
+    <ul class="row" id="portal-globalnav"
         tal:define="selected_tab python:view.selected_portal_tab"
         ><tal:tabs tal:repeat="tab portal_tabs"
-        ><div tal:define="tid tab/id"
+        ><li tal:define="tid tab/id"
              tal:attributes="id string:portaltab-${tid};
                             class python:selected_tab==tid and 'threecol selected' or 'threecol plain'"
             ><a href=""
@@ -14,5 +14,5 @@
                tal:attributes="href tab/url;
                                title tab/description|nothing;">
             Tab Name
-            </a></div></tal:tabs></div>
+            </a></li></tal:tabs></ul>
 </tal:sections>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rules
-  xmlns="http://namespaces.plone.org/diazo" 
+  xmlns="http://namespaces.plone.org/diazo"
   xmlns:css="http://namespaces.plone.org/diazo/css"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   css:if-content="#visual-portal-wrapper"
@@ -12,6 +12,12 @@
     <theme href="theme-two-right.html" if="$have_right_portlets"/>
     <theme href="theme-one.html" />
     <drop content='/html/head/meta[@name="viewport"]'/>
+    <!-- we do not use public.css &column.css there -->
+    <xsl:template
+        xmlns:re="http://exslt.org/regular-expressions"
+        match="/html/head/link[@rel='stylesheet' and re:test(@href, '(public|columns)\.css')]">
+    </xsl:template>
+
     <drop css:theme=".drop"/>
 
 <!--  RESOURCES -->
