@@ -6,9 +6,11 @@
     <div class="row" id="portal-globalnav"
         tal:define="selected_tab python:view.selected_portal_tab"
         ><tal:tabs tal:repeat="tab portal_tabs"
-        ><div tal:define="tid tab/id"
+        ><div tal:define="tid tab/id;
+                          cssclass python:selected_tab==tid and 'threecol selected' or 'threecol plain';
+                          cssclass python:repeat['tab'].end and 'last '+cssclass or cssclass;"
              tal:attributes="id string:portaltab-${tid};
-                            class python:selected_tab==tid and 'threecol selected' or 'threecol plain'"
+                             class string:${cssclass};"
             ><a href=""
                tal:content="tab/name"
                tal:attributes="href tab/url;
