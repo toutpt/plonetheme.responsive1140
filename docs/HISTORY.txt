@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.1 (unreleased)
+1.1 (2012-02-17)
 ----------------
 
 - Fix css registry configuration, that make the theme broken in production mode
