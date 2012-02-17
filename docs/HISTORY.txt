@@ -4,7 +4,8 @@ Changelog
 1.1 (unreleased)
 ----------------
 
-- Nothing changed yet
+- Fix css registry configuration, that make the theme broken in production mode
+  [toutpt kiorky]
 
 1.0 (2012-01-17)
 ----------------
